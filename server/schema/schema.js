@@ -13,23 +13,6 @@ const {
   GraphQLList,
 } = graphql;
 
-// Dummy Data
-// var books = [
-//   { name: "Bir Bilim Adamın Romanı", genre: "Biographical Fiction", id: "1", authorId: "1" },
-//   { name: "Tehlikeli Oyunlar", genre: "Fiction", id: "2", authorId: "1" },
-//   { name: "Oyunlarla Yaşayanlar", genre: "Fiction", id: "3", authorId: "1" },
-//   { name: "1984", genre: "Science Fiction", id: "4", authorId: "2" },
-//   { name: "Hayvan Çiftliği", genre: "Fiction", id: "5", authorId: "2" },
-//   { name: "Kürk Mantolu Madonna", genre: "Fiction", id: "6", authorId: "3" },
-//   { name: "İçimizdeki Şeytan", genre: "Fiction", id: "7", authorId: "3" },
-// ];
-
-// var authors = [
-//   { name: "Oğuz Atay", age: 43, id: "1" },
-//   { name: "George Orwell", age: 47, id: "2" },
-//   { name: "Sabahattin Ali", age: 41, id: "3" },
-// ];
-
 const BookType = new GraphQLObjectType({
   name: "Book",
   fields: () => ({
